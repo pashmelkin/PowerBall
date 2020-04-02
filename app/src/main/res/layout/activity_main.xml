@@ -22,13 +22,14 @@
 
   <RelativeLayout android:id="@+id/RelativeLayout01"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_height="fill_parent">
 
     <ImageButton
       android:id="@+id/btn_powerball_data"
-      android:layout_width="316dp"
-      android:layout_height="304dp"
+      android:layout_width="116dp"
+      android:layout_height="104dp"
+      android:adjustViewBounds="true"
+      android:scaleType="fitCenter"
       android:layout_centerInParent="true"
       android:background="@drawable/shadow_button_layer_list"
       app:srcCompat="@drawable/qbert" />
